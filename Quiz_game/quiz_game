@@ -1,0 +1,22 @@
+# welcome message
+
+print('Welcome to the quiz game')
+play = input('Do you want to play the game? (y/n): \n')
+
+if play != 'y':
+    quit()
+
+answer = input('What is my name? \n')
+
+if answer.lower() == 'samuel' or 'vinald' or 'okiror':
+    print('Correct answer')
+
+
+answer = input('How old am I in 2023 \n')
+if answer == 23:
+    print('Correct answer')
+
+
+answer = input('Who is my best friend')
+if answer.lower() == 'titus':
+    print('Correct answer')
