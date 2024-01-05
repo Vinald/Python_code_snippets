@@ -67,7 +67,7 @@ elif choose_quiz_game == 2:
         print('\n')
         print("Results:")
         print('\n')
-        print("Answer: ", end=' ')
+        print("Answer:", end='')
         for i in questions:
             print(questions.get(i), end=' ')
         print()
@@ -76,7 +76,7 @@ elif choose_quiz_game == 2:
             print(i, end=' ')
         print()
         score = int((correct_guesses/len(questions)) * 100)
-        print("Score: ", score, end='')
+        print(f"Score: {score}", end='')
 
     def play_again():
         response = input("Do you want to play again? (yes or no)").upper()
