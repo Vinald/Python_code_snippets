@@ -181,3 +181,4 @@ invalid_label.grid(row=5, column=0, columnspan=2, padx=10, pady=5)
 window.grid_columnconfigure(1, weight=1)
 
 window.mainloop()
+
