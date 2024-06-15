@@ -1,5 +1,6 @@
 from tkinter import *
 
+
 class Student:
     def __init__(self, name, roll_number, grade, marks):
         self.name = name
@@ -22,6 +23,7 @@ class Student:
             return 'P'
         else:
             return 'F'
+
 
 def add_student():
     name = name_entry.get()
@@ -51,6 +53,7 @@ def add_student():
     marks_entry.delete(0, END)
     invalid_label.config(text="")
 
+
 def display_student_info():
     roll_number = roll_entry.get()
     found = False
@@ -70,6 +73,7 @@ def display_student_info():
         info_label.config(text=f"Student with roll number {roll_number} not found.")
         window.after(3000, clear_info_label)
 
+
 def delete_student():
     roll_number = roll_entry.get()
     found = False
@@ -87,6 +91,7 @@ def delete_student():
     if not found:
         info_label.config(text=f"Student with roll number {roll_number} not found.")
         window.after(3000, clear_info_label)
+
 
 def update_student_info():
     roll_number = roll_entry.get()
@@ -121,14 +126,18 @@ def update_student_info():
         info_label.config(text=f"Student with roll number {roll_number} not found.")
         window.after(3000, clear_info_label)
 
+
 def exit_program():
     window.destroy()
+
 
 def clear_error_label():
     invalid_label.config(text="")
 
+
 def clear_info_label():
     info_label.config(text="")
+
 
 students = []
 
@@ -181,4 +190,3 @@ invalid_label.grid(row=5, column=0, columnspan=2, padx=10, pady=5)
 window.grid_columnconfigure(1, weight=1)
 
 window.mainloop()
-
