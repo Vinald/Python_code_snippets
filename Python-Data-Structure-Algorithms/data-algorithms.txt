@@ -1,0 +1,18 @@
+What is an algorithm?
+   
+
+1. Linear Search
+2. Binary Search
+
+1. Binary Search and Complexity Analysis
+2. Python Classes and Linked Lists
+3. Arrays, Stacks, Queues and Strings
+4. Binary Search Trees and Hash Tables
+5. Insertion Sort, Merge Sort and Divide-and-Conquer
+6. Quicksort, Partitions and Average-case Complexity
+7. Recursion, Backtracking and Dynamic Programming
+8. Knapsack, Subsequence and Matrix Problems
+9. Graphs, Breadth-First Search and Depth-First Search
+10. Shortest Paths, Spanning Trees & Topological Sorting
+11. Disjoint Sets and the Union Find Algorithm
+12. Interview Questions, Tips & Practical Advice
