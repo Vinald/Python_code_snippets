@@ -1,7 +1,19 @@
 Complexity of an algorithm
-The amount of time and space required by an algorithm for an input of size n usually depends on the size of the input. The time and space required by an algorithm are measured as a function of the size of the input data. The size of the input data is usually represented by the variable n. The time and space required by an algorithm can be expressed as a function of n. The function f(n) is used to represent the time and space required by an algorithm. The function f(n) is called the complexity of the algorithm. The complexity of an algorithm is a measure of the amount of time and space required by the algorithm for an input of size
+    The amount of time and space required by an algorithm for an input of size n usually depends on the size of the input. 
 
-    Big O notation
+    The time and space required by an algorithm are measured as a function of the size of the input data. 
+    
+    The size of the input data is usually represented by the variable n. 
+    
+    The time and space required by an algorithm can be expressed as a function of n. 
+    
+    The function f(n) is used to represent the time and space required by an algorithm. 
+    
+    The function f(n) is called the complexity of the algorithm. 
+    
+    The complexity of an algorithm is a measure of the amount of time and space required by the algorithm for an input of size
+
+Big O notation
     The Big O notation is used to represent the complexity of an algorithm.
     
      The Big O notation is used to represent the upper bound of the complexity of an algorithm. 

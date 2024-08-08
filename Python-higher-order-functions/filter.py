@@ -15,3 +15,6 @@ expensive = filter(lambda data: data[1] > 20, store)
 
 print(list(expensive))
 print()
+
+oddNumber = filter(lambda num: num % 2 == 0, number)
+print(list(oddNumber))
